@@ -1,0 +1,796 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: Controller/OperatorsController.php:40;72;97
+msgid "Invalid operator"
+msgstr ""
+
+#: Controller/OperatorsController.php:55;76
+msgid "The operator has been saved."
+msgstr ""
+
+#: Controller/OperatorsController.php:58;79
+msgid "The operator could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/OperatorsController.php:101
+msgid "The operator has been deleted."
+msgstr ""
+
+#: Controller/OperatorsController.php:103
+msgid "The operator could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/OrdersController.php:54;93;125;140
+msgid "Invalid order"
+msgstr ""
+
+#: Controller/OrdersController.php:70;98;159
+msgid "The order has been saved."
+msgstr ""
+
+#: Controller/OrdersController.php:73;101;162
+msgid "The order could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/OrdersController.php:129
+msgid "The order has been deleted."
+msgstr ""
+
+#: Controller/OrdersController.php:131
+msgid "The order could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/OrdersToolsController.php:48
+msgid "Invalid orders tool"
+msgstr ""
+
+#: Controller/OrdersToolsController.php:54
+msgid "The orders tool has been saved."
+msgstr ""
+
+#: Controller/OrdersToolsController.php:57
+msgid "The orders tool could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/StocksController.php:43;79
+msgid "Invalid stock"
+msgstr ""
+
+#: Controller/StocksController.php:59;84
+msgid "The stock has been saved."
+msgstr ""
+
+#: Controller/StocksController.php:62;87
+msgid "The stock could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/SubtypesController.php:43;77;104
+msgid "Invalid subtype"
+msgstr ""
+
+#: Controller/SubtypesController.php:58;81
+msgid "The subtype has been saved."
+msgstr ""
+
+#: Controller/SubtypesController.php:61;84
+msgid "The subtype could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/SubtypesController.php:108
+msgid "The subtype has been deleted."
+msgstr ""
+
+#: Controller/SubtypesController.php:110
+msgid "The subtype could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/ToolsController.php:66;101;129
+msgid "Invalid tool"
+msgstr ""
+
+#: Controller/ToolsController.php:81;105
+msgid "The tool has been saved."
+msgstr ""
+
+#: Controller/ToolsController.php:84;108
+msgid "The tool could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/ToolsController.php:133
+msgid "The tool has been deleted."
+msgstr ""
+
+#: Controller/ToolsController.php:135
+msgid "The tool could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/TypesController.php:43;75;100
+msgid "Invalid type"
+msgstr ""
+
+#: Controller/TypesController.php:58;79
+msgid "The type has been saved."
+msgstr ""
+
+#: Controller/TypesController.php:61;82
+msgid "The type could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/TypesController.php:104
+msgid "The type has been deleted."
+msgstr ""
+
+#: Controller/TypesController.php:106
+msgid "The type could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/UsersController.php:28
+msgid "Nom d'user ou mot de passe invalide, réessayer"
+msgstr ""
+
+#: Controller/UsersController.php:40;80;112;137
+msgid "Invalid user"
+msgstr ""
+
+#: Controller/UsersController.php:44;95;116
+msgid "The user has been saved."
+msgstr ""
+
+#: Controller/UsersController.php:47;98;119
+msgid "The user could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/UsersController.php:141
+msgid "The user has been deleted."
+msgstr ""
+
+#: Controller/UsersController.php:143
+msgid "The user could not be deleted. Please, try again."
+msgstr ""
+
+#: View/Elements/admin_menu.ctp:2
+#: View/Elements/issuer_menu.ctp:2
+#: View/Elements/storekeeper_menu.ctp:2
+msgid "dashboard"
+msgstr ""
+
+#: View/Elements/admin_menu.ctp:9
+msgid "operators"
+msgstr ""
+
+#: View/Elements/admin_menu.ctp:12
+#: View/Elements/issuer_menu.ctp:9
+#: View/Elements/storekeeper_menu.ctp:9
+msgid "orders"
+msgstr ""
+
+#: View/Elements/admin_menu.ctp:15
+#: View/Elements/storekeeper_menu.ctp:12
+msgid "orders_tools"
+msgstr ""
+
+#: View/Elements/admin_menu.ctp:18
+#: View/Elements/storekeeper_menu.ctp:15
+msgid "stocks"
+msgstr ""
+
+#: View/Elements/admin_menu.ctp:21
+#: View/Elements/storekeeper_menu.ctp:18
+msgid "tools"
+msgstr ""
+
+#: View/Elements/admin_menu.ctp:24
+#: View/Elements/storekeeper_menu.ctp:21
+msgid "subtypes"
+msgstr ""
+
+#: View/Elements/admin_menu.ctp:27
+#: View/Elements/storekeeper_menu.ctp:24
+msgid "types"
+msgstr ""
+
+#: View/Elements/admin_menu.ctp:30
+msgid "users"
+msgstr ""
+
+#: View/Elements/admin_menu.ctp:35
+#: View/Elements/issuer_menu.ctp:14
+#: View/Elements/storekeeper_menu.ctp:30
+msgid "logout"
+msgstr ""
+
+#: View/Elements/menu.ctp:3
+msgid "login"
+msgstr ""
+
+#: View/Operators/add.ctp:2
+msgid "Add Operator"
+msgstr ""
+
+#: View/Operators/add.ctp:5
+#: View/Operators/edit.ctp:6
+#: View/Operators/view.ctp:7
+msgid "List Operators"
+msgstr ""
+
+#: View/Operators/add.ctp:16
+#: View/Operators/edit.ctp:19
+#: View/Orders/add.ctp:20
+#: View/Orders/edit.ctp:19
+#: View/OrdersTools/edit.ctp:60
+#: View/Stocks/add.ctp:17
+#: View/Stocks/edit.ctp:19
+#: View/Subtypes/add.ctp:21
+#: View/Subtypes/edit.ctp:23
+#: View/Tools/add.ctp:22
+#: View/Tools/edit.ctp:24
+#: View/Types/add.ctp:18
+#: View/Types/edit.ctp:20
+#: View/Users/add.ctp:21
+#: View/Users/edit.ctp:23
+#: View/Users/profil.ctp:18
+msgid "Submit"
+msgstr ""
+
+#: View/Operators/edit.ctp:2
+#: View/Operators/view.ctp:5
+msgid "Edit Operator"
+msgstr ""
+
+#: View/Operators/edit.ctp:5
+#: View/Operators/index.ctp:29
+#: View/Orders/edit.ctp:5
+#: View/Orders/index.ctp:46;59
+#: View/Stocks/edit.ctp:5
+#: View/Subtypes/edit.ctp:7
+#: View/Subtypes/index.ctp:36
+#: View/Tools/edit.ctp:5
+#: View/Tools/index.ctp:50
+#: View/Types/edit.ctp:5
+#: View/Types/index.ctp:30
+#: View/Users/edit.ctp:5
+#: View/Users/index.ctp:33
+msgid "Delete"
+msgstr ""
+
+#: View/Operators/edit.ctp:5
+#: View/Operators/index.ctp:29
+#: View/Operators/view.ctp:6
+#: View/Orders/edit.ctp:5
+#: View/Orders/index.ctp:48;61
+#: View/Stocks/edit.ctp:5
+#: View/Stocks/view.ctp:6
+#: View/Subtypes/edit.ctp:7
+#: View/Subtypes/index.ctp:36
+#: View/Subtypes/view.ctp:6
+#: View/Tools/edit.ctp:5
+#: View/Tools/index.ctp:50
+#: View/Tools/view.ctp:7
+#: View/Types/edit.ctp:5
+#: View/Types/index.ctp:30
+#: View/Types/view.ctp:7
+#: View/Users/edit.ctp:5
+#: View/Users/index.ctp:33
+#: View/Users/view.ctp:7
+msgid "Are you sure you want to delete # %s?"
+msgstr ""
+
+#: View/Operators/index.ctp:2
+msgid "Operators"
+msgstr ""
+
+#: View/Operators/index.ctp:5
+msgid "New Operator"
+msgstr ""
+
+#: View/Operators/index.ctp:27
+#: View/Orders/index.ctp:36
+#: View/Stocks/index.ctp:39
+#: View/Subtypes/index.ctp:34
+#: View/Tools/index.ctp:48
+#: View/Types/index.ctp:28
+#: View/Users/index.ctp:31
+msgid "View"
+msgstr ""
+
+#: View/Operators/index.ctp:28
+#: View/Orders/index.ctp:45;58
+#: View/Stocks/index.ctp:40
+#: View/Subtypes/index.ctp:35
+#: View/Tools/index.ctp:49
+#: View/Types/index.ctp:29
+#: View/Users/index.ctp:32
+msgid "Edit"
+msgstr ""
+
+#: View/Operators/index.ctp:38
+#: View/Orders/index.ctp:77
+#: View/OrdersTools/index.ctp:78
+#: View/Stocks/index.ctp:49
+#: View/Subtypes/index.ctp:45
+#: View/Tools/index.ctp:59
+#: View/Types/index.ctp:39
+#: View/Users/index.ctp:42
+msgid "Page {:page} of {:pages}, showing {:current} records out of {:count} total, starting on record {:start}, ending on {:end}"
+msgstr ""
+
+#: View/Operators/index.ctp:43
+#: View/Orders/index.ctp:82
+#: View/OrdersTools/index.ctp:83
+#: View/Stocks/index.ctp:54
+#: View/Subtypes/index.ctp:50
+#: View/Tools/index.ctp:64
+#: View/Types/index.ctp:44
+#: View/Users/index.ctp:47
+msgid "previous"
+msgstr ""
+
+#: View/Operators/index.ctp:45
+#: View/Orders/index.ctp:84
+#: View/OrdersTools/index.ctp:85
+#: View/Stocks/index.ctp:56
+#: View/Subtypes/index.ctp:52
+#: View/Tools/index.ctp:66
+#: View/Types/index.ctp:46
+#: View/Users/index.ctp:49
+msgid "next"
+msgstr ""
+
+#: View/Operators/view.ctp:2
+#: View/Orders/view.ctp:29
+#: View/OrdersTools/edit.ctp:27
+msgid "Operator"
+msgstr ""
+
+#: View/Operators/view.ctp:6
+msgid "Delete Operator"
+msgstr ""
+
+#: View/Operators/view.ctp:11
+#: View/Orders/view.ctp:14
+#: View/OrdersTools/edit.ctp:12
+#: View/Stocks/view.ctp:13
+#: View/Subtypes/view.ctp:17
+#: View/Tools/view.ctp:17
+#: View/Types/view.ctp:16;48
+#: View/Users/view.ctp:14
+msgid "Id"
+msgstr ""
+
+#: View/Operators/view.ctp:16
+#: View/Users/view.ctp:19
+msgid "Regimental"
+msgstr ""
+
+#: View/Operators/view.ctp:21
+#: View/Subtypes/view.ctp:22
+#: View/Types/view.ctp:21;49
+#: View/Users/view.ctp:24
+msgid "Name"
+msgstr ""
+
+#: View/Operators/view.ctp:26
+msgid "Office"
+msgstr ""
+
+#: View/Operators/view.ctp:31
+#: View/Orders/view.ctp:39
+#: View/OrdersTools/edit.ctp:37
+#: View/Stocks/view.ctp:33
+#: View/Subtypes/view.ctp:37
+#: View/Tools/view.ctp:42
+#: View/Types/view.ctp:31
+#: View/Users/view.ctp:39
+msgid "Created"
+msgstr ""
+
+#: View/Operators/view.ctp:36
+#: View/Orders/view.ctp:44
+#: View/OrdersTools/edit.ctp:42
+#: View/Stocks/view.ctp:38
+#: View/Subtypes/view.ctp:42
+#: View/Tools/view.ctp:47
+#: View/Types/view.ctp:36
+#: View/Users/view.ctp:44
+msgid "Modified"
+msgstr ""
+
+#: View/Orders/add.ctp:2
+msgid "Add Order"
+msgstr ""
+
+#: View/Orders/add.ctp:6
+#: View/Orders/edit.ctp:6
+#: View/Orders/view.ctp:6
+#: View/OrdersTools/edit.ctp:6
+msgid "List Orders"
+msgstr ""
+
+#: View/Orders/edit.ctp:2
+msgid "Edit Order"
+msgstr ""
+
+#: View/Orders/index.ctp:2
+msgid "Orders"
+msgstr ""
+
+#: View/Orders/index.ctp:5
+msgid "New Order"
+msgstr ""
+
+#: View/Orders/index.ctp:41;52
+msgid "Validate"
+msgstr ""
+
+#: View/Orders/index.ctp:43;54
+msgid "Are you sure you want to validate # %s?"
+msgstr ""
+
+#: View/Orders/view.ctp:2
+msgid "Order"
+msgstr ""
+
+#: View/Orders/view.ctp:7
+msgid "Imprimer"
+msgstr ""
+
+#: View/Orders/view.ctp:19
+#: View/OrdersTools/edit.ctp:17
+msgid "Ref Piece"
+msgstr ""
+
+#: View/Orders/view.ctp:24
+#: View/OrdersTools/edit.ctp:22
+msgid "Status"
+msgstr ""
+
+#: View/Orders/view.ctp:34
+#: View/OrdersTools/edit.ctp:32
+#: View/Stocks/view.ctp:28
+#: View/Users/view.ctp:2
+msgid "User"
+msgstr ""
+
+#: View/Orders/view.ctp:49
+msgid "Related Tools"
+msgstr ""
+
+#: View/OrdersTools/edit.ctp:2
+msgid "Edit Orders Tool"
+msgstr ""
+
+#: View/OrdersTools/edit.ctp:5
+msgid "List Orders Tools"
+msgstr ""
+
+#: View/OrdersTools/edit.ctp:7
+#: View/OrdersTools/index.ctp:24
+#: View/Stocks/add.ctp:6
+#: View/Stocks/edit.ctp:7
+#: View/Stocks/index.ctp:8
+#: View/Stocks/view.ctp:8
+#: View/Subtypes/index.ctp:9
+#: View/Subtypes/view.ctp:11
+#: View/Tools/add.ctp:5
+#: View/Tools/edit.ctp:6
+#: View/Tools/view.ctp:8
+msgid "List Tools"
+msgstr ""
+
+#: View/OrdersTools/edit.ctp:10
+msgid "Orders info"
+msgstr ""
+
+#: View/OrdersTools/edit.ctp:50
+#: View/Stocks/view.ctp:23
+#: View/Tools/view.ctp:2
+msgid "Tool"
+msgstr ""
+
+#: View/OrdersTools/index.ctp:21
+msgid "Orders Tools"
+msgstr ""
+
+#: View/OrdersTools/index.ctp:68
+msgid "OK"
+msgstr ""
+
+#: View/Pages/home.ctp:2
+msgid "welcome"
+msgstr ""
+
+#: View/Stocks/add.ctp:2
+msgid "Add Stock"
+msgstr ""
+
+#: View/Stocks/add.ctp:5
+#: View/Stocks/edit.ctp:6
+#: View/Stocks/view.ctp:7
+#: View/Tools/add.ctp:8
+#: View/Tools/edit.ctp:9
+#: View/Tools/index.ctp:8
+#: View/Tools/view.ctp:12
+msgid "List Stocks"
+msgstr ""
+
+#: View/Stocks/edit.ctp:2
+#: View/Stocks/view.ctp:5
+msgid "Edit Stock"
+msgstr ""
+
+#: View/Stocks/index.ctp:3
+msgid "Stocks"
+msgstr ""
+
+#: View/Stocks/index.ctp:7
+#: View/Tools/add.ctp:9
+#: View/Tools/edit.ctp:10
+#: View/Tools/index.ctp:9
+#: View/Tools/view.ctp:13
+msgid "New Stock"
+msgstr ""
+
+#: View/Stocks/index.ctp:9
+#: View/Subtypes/index.ctp:10
+#: View/Subtypes/view.ctp:12
+#: View/Tools/index.ctp:5
+#: View/Tools/view.ctp:9
+msgid "New Tool"
+msgstr ""
+
+#: View/Stocks/view.ctp:2
+msgid "Stock"
+msgstr ""
+
+#: View/Stocks/view.ctp:6
+msgid "Delete Stock"
+msgstr ""
+
+#: View/Stocks/view.ctp:18
+msgid "Quantity"
+msgstr ""
+
+#: View/Subtypes/add.ctp:2
+msgid "Add Subtype"
+msgstr ""
+
+#: View/Subtypes/add.ctp:7
+#: View/Subtypes/edit.ctp:8
+#: View/Subtypes/view.ctp:7
+#: View/Tools/add.ctp:6
+#: View/Tools/edit.ctp:7
+#: View/Tools/index.ctp:6
+#: View/Tools/view.ctp:10
+#: View/Types/add.ctp:6
+#: View/Types/edit.ctp:7
+#: View/Types/index.ctp:7
+#: View/Types/view.ctp:10
+msgid "List Subtypes"
+msgstr ""
+
+#: View/Subtypes/add.ctp:8
+#: View/Subtypes/edit.ctp:9
+#: View/Subtypes/index.ctp:7
+#: View/Subtypes/view.ctp:9
+#: View/Types/add.ctp:5
+#: View/Types/edit.ctp:6
+#: View/Types/view.ctp:8
+msgid "List Types"
+msgstr ""
+
+#: View/Subtypes/add.ctp:9
+#: View/Subtypes/edit.ctp:10
+#: View/Subtypes/index.ctp:8
+#: View/Subtypes/view.ctp:10
+#: View/Types/index.ctp:6
+#: View/Types/view.ctp:9
+msgid "New Type"
+msgstr ""
+
+#: View/Subtypes/edit.ctp:2
+#: View/Subtypes/view.ctp:5
+msgid "Edit Subtype"
+msgstr ""
+
+#: View/Subtypes/index.ctp:2
+msgid "Subtypes"
+msgstr ""
+
+#: View/Subtypes/index.ctp:6
+#: View/Subtypes/view.ctp:8
+#: View/Tools/add.ctp:7
+#: View/Tools/edit.ctp:8
+#: View/Tools/index.ctp:7
+#: View/Tools/view.ctp:11
+#: View/Types/add.ctp:7
+#: View/Types/edit.ctp:8
+#: View/Types/index.ctp:8
+#: View/Types/view.ctp:11
+msgid "New Subtype"
+msgstr ""
+
+#: View/Subtypes/view.ctp:2
+#: View/Tools/view.ctp:37
+msgid "Subtype"
+msgstr ""
+
+#: View/Subtypes/view.ctp:6
+msgid "Delete Subtype"
+msgstr ""
+
+#: View/Subtypes/view.ctp:27
+#: View/Types/view.ctp:26;50
+msgid "Description"
+msgstr ""
+
+#: View/Subtypes/view.ctp:32
+#: View/Types/view.ctp:2
+msgid "Type"
+msgstr ""
+
+#: View/Tools/add.ctp:2
+msgid "Add Tool"
+msgstr ""
+
+#: View/Tools/edit.ctp:2
+#: View/Tools/view.ctp:6
+msgid "Edit Tool"
+msgstr ""
+
+#: View/Tools/index.ctp:2
+msgid "Tools"
+msgstr ""
+
+#: View/Tools/view.ctp:7
+msgid "Delete Tool"
+msgstr ""
+
+#: View/Tools/view.ctp:22
+msgid "Ref"
+msgstr ""
+
+#: View/Tools/view.ctp:27
+msgid "Diameter"
+msgstr ""
+
+#: View/Tools/view.ctp:32
+msgid "Unit Price"
+msgstr ""
+
+#: View/Tools/view.ctp:52
+msgid "quantity_output"
+msgstr ""
+
+#: View/Tools/view.ctp:57
+msgid "quantity_broken"
+msgstr ""
+
+#: View/Tools/view.ctp:62
+msgid "quantity_to_sharpen"
+msgstr ""
+
+#: View/Tools/view.ctp:67
+msgid "quantity_available"
+msgstr ""
+
+#: View/Tools/view.ctp:72
+msgid "quantity_total"
+msgstr ""
+
+#: View/Tools/view.ctp:77
+msgid "quantity_initial"
+msgstr ""
+
+#: View/Types/add.ctp:2
+msgid "Add Type"
+msgstr ""
+
+#: View/Types/edit.ctp:2
+#: View/Types/view.ctp:6
+msgid "Edit Type"
+msgstr ""
+
+#: View/Types/index.ctp:2
+msgid "Types"
+msgstr ""
+
+#: View/Types/view.ctp:7
+msgid "Delete Type"
+msgstr ""
+
+#: View/Types/view.ctp:41
+msgid "Related Subtypes"
+msgstr ""
+
+#: View/Users/add.ctp:2
+msgid "Add User"
+msgstr ""
+
+#: View/Users/add.ctp:5
+#: View/Users/edit.ctp:6
+#: View/Users/view.ctp:8
+msgid "List Users"
+msgstr ""
+
+#: View/Users/edit.ctp:2
+#: View/Users/view.ctp:6
+msgid "Edit User"
+msgstr ""
+
+#: View/Users/index.ctp:2
+msgid "Users"
+msgstr ""
+
+#: View/Users/index.ctp:5
+#: View/Users/view.ctp:9
+msgid "New User"
+msgstr ""
+
+#: View/Users/login.ctp:4
+msgid "Please enter your username and password"
+msgstr ""
+
+#: View/Users/login.ctp:13
+msgid "Login"
+msgstr ""
+
+#: View/Users/profil.ctp:2
+msgid "Profil User"
+msgstr ""
+
+#: View/Users/view.ctp:7
+msgid "Delete User"
+msgstr ""
+
+#: View/Users/view.ctp:29
+msgid "Role"
+msgstr ""
+
+#: View/Users/view.ctp:34
+msgid "Username"
+msgstr ""
+
+#: Model/Order.php:validation for field operator_id;validation for field user_id
+#: Model/OrdersTool.php:validation for field order_id;validation for field tool_id
+#: Model/Stock.php:validation for field tool_id;validation for field user_id
+#: Model/Subtype.php:validation for field type_id
+#: Model/Tool.php:validation for field subtype_id
+msgid "numeric"
+msgstr ""
+
+#: Model/Order.php:validation for field status
+#: Model/User.php:validation for field role
+msgid "Merci de rentrer un rôle valide"
+msgstr ""
+
+#: Model/OrdersTool.php:validation for field tool_id
+msgid "tool_status"
+msgstr ""
+
+#: Model/Subtype.php:validation for field name
+#: Model/Type.php:validation for field name
+#: Model/User.php:validation for field regimental
+msgid "notBlank"
+msgstr ""
+
+#: Model/User.php:validation for field username
+msgid "Un nom d'utilisateur est requis"
+msgstr ""
+
+#: Model/User.php:validation for field password
+msgid "Un mot de passe est requis"
+msgstr ""
+

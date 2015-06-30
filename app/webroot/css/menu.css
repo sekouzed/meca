@@ -1,0 +1,76 @@
+
+/*
+Author: sekouzed
+Author URI: dioubatesekou@gmail.com
+*/
+
+
+ul.menu  {
+    overflow: hidden;
+    list-style-type: none;
+    padding: 0;margin: 0;
+    margin-bottom: 1px;
+}
+
+.menu li {
+    float: left;
+    margin: 0;
+    list-style: none;
+    margin-right: 1px;
+}
+
+.menu a:link, .menu a:visited {
+    display: block;
+    font-weight: initial;
+    /*color: #FFFFFF;*/
+    /* background-color: #98bf21; */
+    text-align: center;
+    padding:5px 10px;
+    text-decoration: none;
+    /* text-transform: uppercase; */
+    /*border-left: 1px solid;*/
+}
+
+.menu a.account{
+    background: #dcdcdc;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#fefefe), to(#dcdcdc));
+    background-image: -webkit-linear-gradient(top, #fefefe, #dcdcdc);
+    background-image: -moz-linear-gradient(top, #fefefe, #dcdcdc);
+    background-image: -ms-linear-gradient(top, #fefefe, #dcdcdc);
+    background-image: -o-linear-gradient(top, #fefefe, #dcdcdc);
+    background-image: linear-gradient(top, #fefefe, #dcdcdc);
+    color:#333;
+    border:1px solid #bbb;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    text-decoration: none;
+    text-shadow: #fff 0px 1px 0px;
+    /*min-width: 0;*/
+    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), 0px 1px 1px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), 0px 1px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), 0px 1px 1px rgba(0, 0, 0, 0.2);
+    -webkit-user-select: none;
+    user-select: none;
+
+    margin-left: 5px;
+}
+
+.menu a:hover, .menu a.active {
+background: #0A7142;
+    color: #fff;
+    /*background-image: -webkit-gradient(linear, left top, left bottom, from(#dfdfdf), to(#eee));*/
+    /*background-image: -webkit-linear-gradient(top, #dfdfdf, #eee);*/
+    /*background-image: -moz-linear-gradient(top, #dfdfdf, #eee);*/
+    /*background-image: -ms-linear-gradient(top, #dfdfdf, #eee);*/
+    /*background-image: -o-linear-gradient(top, #dfdfdf, #eee);*/
+    /*background-image: linear-gradient(top, #dfdfdf, #eee);*/
+    /*text-shadow: #eee 0px 1px 0px;*/
+    /*-moz-box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.3);*/
+    /*-webkit-box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.3);*/
+    /*box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.3);*/
+    /*border-color: #aaa;*/
+    /*text-decoration: none;*/
+
+
+}
