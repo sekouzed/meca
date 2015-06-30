@@ -44,9 +44,9 @@
 		<td><?php echo h($tool['Tool']['quantity_total']); ?>&nbsp;</td>
 		<td><?php echo h($tool['Tool']['quantity_initial']); ?>&nbsp;</td>
 		<td class="actions">
-            <?php echo $this->Html->link('<i class="fa fa-folder-open-o "></i> ', array('action' => 'view', $tool['Tool']['id']),['escape'=>false]); ?>
-            <?php echo $this->Html->link('<i class="fa fa-edit"></i> ', array('action' => 'edit', $tool['Tool']['id']),['escape'=>false]); ?>
-            <?php echo $this->Form->postLink('<i class="fa fa-trash"></i> ', array('action' => 'delete', $tool['Tool']['id']), array('escape'=>false,'confirm' => __('Are you sure you want to delete # %s?', $tool['Tool']['id']))); ?>
+            <?php echo $this->Html->link('<i class="fa fa-folder-open-o "></i> ', array('action' => 'view', $tool['Tool']['id']),['escape'=>false,'title'=>'voir']); ?>
+            <?php echo $this->Html->link('<i class="fa fa-edit"></i> ', array('action' => 'edit', $tool['Tool']['id']),['escape'=>false,'title'=>'éditer']); ?>
+            <?php echo $this->Form->postLink('<i class="fa fa-trash"></i> ', array('action' => 'delete', $tool['Tool']['id']), array('escape'=>false,'title'=>'supprimer','confirm' => __('Are you sure you want to delete # %s?', $tool['Tool']['id']))); ?>
         </td>
 	</tr>
 <?php endforeach; ?>

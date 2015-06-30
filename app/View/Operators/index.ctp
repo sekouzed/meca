@@ -24,9 +24,9 @@
 		<td><?php echo h($operator['Operator']['name']); ?>&nbsp;</td>
 		<td><?php echo h($operator['Operator']['office']); ?>&nbsp;</td>
 		<td class="actions">
-			<?php echo $this->Html->link('<i class="fa fa-folder-open-o "></i> ', array('action' => 'view', $operator['Operator']['id']),['escape'=>false]); ?>
-			<?php echo $this->Html->link('<i class="fa fa-edit"></i> ', array('action' => 'edit', $operator['Operator']['id']),['escape'=>false]); ?>
-			<?php echo $this->Form->postLink('<i class="fa fa-trash"></i> ', array('action' => 'delete', $operator['Operator']['id']), array('escape'=>false,'confirm' => __('Are you sure you want to delete # %s?', $operator['Operator']['id']))); ?>
+			<?php echo $this->Html->link('<i class="fa fa-folder-open-o "></i> ', array('action' => 'view', $operator['Operator']['id']),['escape'=>false,'title'=>'voir']); ?>
+			<?php echo $this->Html->link('<i class="fa fa-edit"></i> ', array('action' => 'edit', $operator['Operator']['id']),['escape'=>false,'title'=>'éditer']); ?>
+			<?php echo $this->Form->postLink('<i class="fa fa-trash"></i> ', array('action' => 'delete', $operator['Operator']['id']), array('escape'=>false,'title'=>'supprimer','confirm' => __('Are you sure you want to delete # %s?', $operator['Operator']['id']))); ?>
 		</td>
 	</tr>
 <?php endforeach; ?>
