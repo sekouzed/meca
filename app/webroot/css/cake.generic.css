@@ -20,9 +20,9 @@ body {
     padding: 10px 20px;
 }
 a {
-	color: #003d4c;
-	text-decoration: underline;
-	font-weight: bold;
+    color: #0A7142;
+    text-decoration: none;
+    font-weight: normal;
 }
 a:hover {
 	color: #367889;
@@ -92,6 +92,8 @@ p {
     background: none;
     font-size: 24.5px;
     border-bottom: 1px solid #0A7142;
+    font-family: monospace;
+    text-align: center;
 }
 #header h1 a {
 	/*color: #fff;*/
@@ -198,16 +200,21 @@ table tr:nth-child(even) {
 	background: #f9f9f9;
 }
 th.actions {
-    width: 200px;
+    width: 100px;
 }
 td.actions {
-	text-align: center;
+	/*text-align: center;*/
 	white-space: nowrap;
 }
 table td.actions a {
-	margin: 0px 6px;
-	padding:2px 5px;
-
+	margin: 0;
+	padding:2px;
+}
+table td.actions a:hover {
+	background: #fff;
+}
+table td.actions a i.fa{
+	font-size: 18px;
 }
 
 /* SQL log */
@@ -556,8 +563,7 @@ p.error em {
 
 /* Buttons and button links */
 input[type=submit],
-.actions ul li a,
-.actions a {
+.actions ul li a{
 	font-weight:normal;
 	padding: 4px 8px;
 	background: #dcdcdc;

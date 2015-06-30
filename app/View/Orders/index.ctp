@@ -33,30 +33,30 @@
         <td><?php echo h($order['Order']['status']); ?>&nbsp;</td>
 		<td class="actions">
             <?php
-            echo $this->Html->link('<i class="fa fa-eye"></i> '.__('View'), array('action' => 'view', $order['Order']['id']),['escape'=>false]);
+            echo $this->Html->link('<i class="fa fa-folder-open-o "></i> ', array('action' => 'view', $order['Order']['id']),['escape'=>false]);
 
             if($order['Order']['status']=='new'){
                 switch($this->Session->read('Auth.User.role')){
                     case 'admin':
-                        echo $this->Form->postLink('<i class="fa fa-check"></i> '.__('Validate'),
+                        echo $this->Form->postLink('<i class="fa fa-check"></i> ',
                             array('action' => 'validation', $order['Order']['id']),
                             array('escape'=>false,'confirm' => __('Are you sure you want to validate # %s?', $order['Order']['id']))
                         );
-                        echo $this->Html->link('<i class="fa fa-edit"></i> '.__('Edit'), array('action' => 'edit', $order['Order']['id']),['escape'=>false]);
-                        echo $this->Form->postLink('<i class="fa fa-trash"></i> '.__('Delete'),
+                        echo $this->Html->link('<i class="fa fa-edit"></i> ', array('action' => 'edit', $order['Order']['id']),['escape'=>false]);
+                        echo $this->Form->postLink('<i class="fa fa-trash"></i> ',
                             array('action' => 'delete', $order['Order']['id']),
                             array('escape'=>false,'confirm' => __('Are you sure you want to delete # %s?', $order['Order']['id'])));
 
                         break;
                     case 'storekeeper':
-                        echo $this->Form->postLink('<i class="fa fa-check"></i> '.__('Validate'),
+                        echo $this->Form->postLink('<i class="fa fa-check"></i> ',
                             array('action' => 'validation', $order['Order']['id']),
                             array('escape'=>false,'confirm' => __('Are you sure you want to validate # %s?', $order['Order']['id']))
                         );
                         break;
                     case 'issuer':
-                        echo $this->Html->link('<i class="fa fa-edit"></i> '.__('Edit'), array('action' => 'edit', $order['Order']['id']),['escape'=>false]);
-                        echo $this->Form->postLink('<i class="fa fa-trash"></i> '.__('Delete'),
+                        echo $this->Html->link('<i class="fa fa-edit"></i> ', array('action' => 'edit', $order['Order']['id']),['escape'=>false]);
+                        echo $this->Form->postLink('<i class="fa fa-trash"></i> ',
                             array('action' => 'delete', $order['Order']['id']),
                             array('escape'=>false,'confirm' => __('Are you sure you want to delete # %s?', $order['Order']['id'])));
                         break;

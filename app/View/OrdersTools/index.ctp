@@ -34,7 +34,7 @@
         <th><?php echo $this->Paginator->sort('user'); ?></th>
         <th><?php echo $this->Paginator->sort('created'); ?></th>
         <th><?php echo $this->Paginator->sort('modified'); ?></th>
-        <th><?php echo $this->Paginator->sort('tool_status'); ?></th>
+        <th style="width: 143px;"><?php echo $this->Paginator->sort('tool_status','Status'); ?></th>
 	</tr>
 	</thead>
 	<tbody>
@@ -63,7 +63,12 @@
             echo $this->Form->input('tool_status', array(
                 'value'=>$ordersTool['OrdersTool']['tool_status'],
                 'label'=>false,
-                'options' => array('fine' => 'fine','output' => 'output','broken' => 'broken','to_sharpen' => 'to_sharpen')
+                'options' => array(
+                    'fine' => 'En bon état',
+                    'output' => 'Sorti',
+                    'broken' => 'Cassé',
+                    'to_sharpen' => 'A affûter'
+                )
             ));
             echo $this->Form->end(__('OK'));
             ?>

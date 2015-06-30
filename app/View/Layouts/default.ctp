@@ -11,10 +11,10 @@
 		echo $this->Html->css('../font-awesome/css/font-awesome.min.css');
 		echo $this->Html->css('./select2/select2.css');
 		echo $this->Html->css('cake.generic');
+        echo $this->Html->css('nav-blocks.css');
         echo $this->Html->css('menu.css');
 
         echo $this->Html->script('jquery') ;
-        echo $this->Html->script('tweenmax.min') ;
         echo $this->Html->script('./select2/select2') ;
         echo $this->Html->script('script') ;
 

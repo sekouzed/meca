@@ -10,7 +10,7 @@ App::uses('AppModel', 'Model');
 class Tool extends AppModel {
 
     public $virtualFields = array(
-        'name' => 'CONCAT(Tool.ref, " /Diameter ", Tool.diameter)'
+        'name' => 'CONCAT(Tool.ref, " /Diametre ", Tool.diameter)'
     );
     public $displayField='name';
 

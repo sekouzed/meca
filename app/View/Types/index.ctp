@@ -25,9 +25,9 @@
 		<td><?php echo h($type['Type']['name']); ?>&nbsp;</td>
 		<td><?php echo h($type['Type']['description']); ?>&nbsp;</td>
 		<td class="actions">
-            <?php echo $this->Html->link('<i class="fa fa-eye"></i> '.__('View'), array('action' => 'view', $type['Type']['id']),['escape'=>false]); ?>
-            <?php echo $this->Html->link('<i class="fa fa-edit"></i> '.__('Edit'), array('action' => 'edit', $type['Type']['id']),['escape'=>false]); ?>
-            <?php echo $this->Form->postLink('<i class="fa fa-trash"></i> '.__('Delete'), array('action' => 'delete', $type['Type']['id']), array('escape'=>false,'confirm' => __('Are you sure you want to delete # %s?', $type['Type']['id']))); ?>
+            <?php echo $this->Html->link('<i class="fa fa-folder-open-o "></i> ', array('action' => 'view', $type['Type']['id']),['escape'=>false]); ?>
+            <?php echo $this->Html->link('<i class="fa fa-edit"></i> ', array('action' => 'edit', $type['Type']['id']),['escape'=>false]); ?>
+            <?php echo $this->Form->postLink('<i class="fa fa-trash"></i> ', array('action' => 'delete', $type['Type']['id']), array('escape'=>false,'confirm' => __('Are you sure you want to delete # %s?', $type['Type']['id']))); ?>
         </td>
 	</tr>
 <?php endforeach; ?>

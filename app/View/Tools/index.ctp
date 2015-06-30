@@ -18,14 +18,13 @@
 			<th><?php echo $this->Paginator->sort('diameter'); ?></th>
 			<th><?php echo $this->Paginator->sort('unit_price'); ?></th>
 			<th><?php echo $this->Paginator->sort('subtype_id'); ?></th>
-            <th><?php echo $this->Paginator->sort('quantity_output'); ?></th>
-            <th><?php echo $this->Paginator->sort('quantity_broken'); ?></th>
-			<th><?php echo $this->Paginator->sort('quantity_to_sharpen'); ?></th>
-			<th><?php echo $this->Paginator->sort('quantity_available'); ?></th>
-			<th><?php echo $this->Paginator->sort('quantity_total'); ?></th>
-			<th><?php echo $this->Paginator->sort('quantity_initial'); ?></th>
+            <th><?php echo $this->Paginator->sort('quantity_output','Quantité sortie'); ?></th>
+            <th><?php echo $this->Paginator->sort('quantity_broken','Quantité cassée'); ?></th>
+			<th><?php echo $this->Paginator->sort('quantity_to_sharpen','Quantité à affûter'); ?></th>
+			<th><?php echo $this->Paginator->sort('quantity_available','Quantité disponible'); ?></th>
+			<th><?php echo $this->Paginator->sort('quantity_total','Quantité totale'); ?></th>
+			<th><?php echo $this->Paginator->sort('quantity_initial','Quantité initiale'); ?></th>
 			<th class="actions"></th>
-
 	</tr>
 	</thead>
 	<tbody>
@@ -45,9 +44,9 @@
 		<td><?php echo h($tool['Tool']['quantity_total']); ?>&nbsp;</td>
 		<td><?php echo h($tool['Tool']['quantity_initial']); ?>&nbsp;</td>
 		<td class="actions">
-            <?php echo $this->Html->link('<i class="fa fa-eye"></i> '.__('View'), array('action' => 'view', $tool['Tool']['id']),['escape'=>false]); ?>
-            <?php echo $this->Html->link('<i class="fa fa-edit"></i> '.__('Edit'), array('action' => 'edit', $tool['Tool']['id']),['escape'=>false]); ?>
-            <?php echo $this->Form->postLink('<i class="fa fa-trash"></i> '.__('Delete'), array('action' => 'delete', $tool['Tool']['id']), array('escape'=>false,'confirm' => __('Are you sure you want to delete # %s?', $tool['Tool']['id']))); ?>
+            <?php echo $this->Html->link('<i class="fa fa-folder-open-o "></i> ', array('action' => 'view', $tool['Tool']['id']),['escape'=>false]); ?>
+            <?php echo $this->Html->link('<i class="fa fa-edit"></i> ', array('action' => 'edit', $tool['Tool']['id']),['escape'=>false]); ?>
+            <?php echo $this->Form->postLink('<i class="fa fa-trash"></i> ', array('action' => 'delete', $tool['Tool']['id']), array('escape'=>false,'confirm' => __('Are you sure you want to delete # %s?', $tool['Tool']['id']))); ?>
         </td>
 	</tr>
 <?php endforeach; ?>

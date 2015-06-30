@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: meca\n"
-"PO-Revision-Date: 2015-06-30 15:32-0000\n"
+"PO-Revision-Date: 2015-06-30 17:24-0000\n"
 "Last-Translator: sekouzed <dioubatesekou@gmail.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -165,7 +165,7 @@ msgstr "L'utilisateur n'a pas pu être supprimé"
 #: View/Elements/admin_menu.ctp:2 View/Elements/issuer_menu.ctp:2
 #: View/Elements/storekeeper_menu.ctp:2
 msgid "dashboard"
-msgstr "Tableau de board"
+msgstr "Tableau de bord"
 
 #: View/Elements/admin_menu.ctp:9
 msgid "operators"

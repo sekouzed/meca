@@ -11,7 +11,7 @@ class Order extends AppModel {
 
 
     public $virtualFields = array(
-        'name' => 'CONCAT(Order.id, " / ", Order.ref_piece)'
+        'name' => 'CONCAT(Order.id, "/", Order.ref_piece)'
     );
     public $displayField='name';
 /**

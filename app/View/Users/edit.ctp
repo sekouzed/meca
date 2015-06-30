@@ -14,10 +14,10 @@
 		echo $this->Form->input('regimental');
 		echo $this->Form->input('name');
         echo $this->Form->input('role', array(
-            'options' => array('issuer' => 'issuer','storekeeper'=>'storekeeper', 'admin' => 'admin')
+            'options' => array('issuer' => 'Délivreur','storekeeper'=>'Magasinier', 'admin' => 'Administrateur')
         ));
 		echo $this->Form->input('username');
-		echo $this->Form->input('password');
+    echo $this->Form->input('password',['label'=>'Mot de passe']);
 	?>
 	</fieldset>
 <?php echo $this->Form->end(__('Submit')); ?>

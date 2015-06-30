@@ -12,7 +12,7 @@
         echo $this->Form->input('regimental');
         echo $this->Form->input('name');
         echo $this->Form->input('username');
-        echo $this->Form->input('password');
+        echo $this->Form->input('password',['label'=>'Mot de passe']);
         ?>
     </fieldset>
     <?php echo $this->Form->end(__('Submit')); ?>

@@ -36,8 +36,8 @@
 		<td><?php echo h($stock['Stock']['created']); ?>&nbsp;</td>
 		<td><?php echo h($stock['Stock']['modified']); ?>&nbsp;</td>
 		<td class="actions">
-            <?php echo $this->Html->link('<i class="fa fa-eye"></i> '.__('View'), array('action' => 'view', $stock['Stock']['id']),['escape'=>false]); ?>
-            <?php echo $this->Html->link('<i class="fa fa-edit"></i> '.__('Edit'), array('action' => 'edit', $stock['Stock']['id']),['escape'=>false]); ?>
+            <?php echo $this->Html->link('<i class="fa fa-folder-open-o "></i> ', array('action' => 'view', $stock['Stock']['id']),['escape'=>false]); ?>
+            <?php echo $this->Html->link('<i class="fa fa-edit"></i> ', array('action' => 'edit', $stock['Stock']['id']),['escape'=>false]); ?>
         </td>
 	</tr>
 <?php endforeach; ?>

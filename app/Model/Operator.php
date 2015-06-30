@@ -9,7 +9,7 @@ class Operator extends AppModel {
 
 
     public $virtualFields = array(
-        'name_reg' => 'CONCAT(Operator.name, " /Reg: ", Operator.regimental)'
+        'name_reg' => 'CONCAT(Operator.name, "/Reg: ", Operator.regimental)'
     );
     public $displayField='name_reg';
 	//The Associations below have been created with all possible keys, those that are not needed can be removed

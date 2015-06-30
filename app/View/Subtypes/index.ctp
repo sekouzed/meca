@@ -31,9 +31,9 @@
 			<?php echo $this->Html->link($subtype['Type']['name'], array('controller' => 'types', 'action' => 'view', $subtype['Type']['id'])); ?>
 		</td>
 		<td class="actions">
-            <?php echo $this->Html->link('<i class="fa fa-eye"></i> '.__('View'), array('action' => 'view', $subtype['Subtype']['id']),['escape'=>false]); ?>
-            <?php echo $this->Html->link('<i class="fa fa-edit"></i> '.__('Edit'), array('action' => 'edit', $subtype['Subtype']['id']),['escape'=>false]); ?>
-            <?php echo $this->Form->postLink('<i class="fa fa-trash"></i> '.__('Delete'), array('action' => 'delete', $subtype['Subtype']['id']), array('escape'=>false,'confirm' => __('Are you sure you want to delete # %s?', $subtype['Subtype']['id']))); ?>
+            <?php echo $this->Html->link('<i class="fa fa-folder-open-o "></i> ', array('action' => 'view', $subtype['Subtype']['id']),['escape'=>false]); ?>
+            <?php echo $this->Html->link('<i class="fa fa-edit"></i> ', array('action' => 'edit', $subtype['Subtype']['id']),['escape'=>false]); ?>
+            <?php echo $this->Form->postLink('<i class="fa fa-trash"></i> ', array('action' => 'delete', $subtype['Subtype']['id']), array('escape'=>false,'confirm' => __('Are you sure you want to delete # %s?', $subtype['Subtype']['id']))); ?>
         </td>
 	</tr>
 <?php endforeach; ?>
